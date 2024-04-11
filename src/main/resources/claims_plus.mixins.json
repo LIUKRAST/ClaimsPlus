@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.frozenblock.liukrast.claimsplus.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ClaimsPlus.refmap.json",
+  "mixins": [
+    "ContraptionInteractionPacketMixin",
+    "IAnvilMenuMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
